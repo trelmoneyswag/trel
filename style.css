@@ -1,0 +1,38 @@
+body {
+    background-color: 	#888833;
+}
+.sidebarright {
+    display: flexbox;
+    background-image: url(/images/watercolorbrown.jpeg);
+    width: 200px;
+    height: 650px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.sidebarleft {
+    display: flexbox;
+    background-image: url(/images/watercolorbrown.jpeg);
+    width: 200px;
+    height: 650px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mainbox {
+    display: flexbox;
+    width: 700px;
+    height: 600px;
+    border: 1px #888833 solid;
+
+}
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+iframe.mainbox {
+    display: absolute;
+    width: 700px;
+    height: 600px;
+    padding: 100px;
+    margin-left: 75px;
+}
