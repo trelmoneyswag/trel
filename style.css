@@ -42,8 +42,8 @@ iframe.mainbox {
     overflow: hidden;
     border: 1px solid #585823;
     background-color: white;
-    height: 100px;
-    width: 100px;
+    height: 45px;
+    width: 105%;
 
 }
 .tab button {
@@ -54,6 +54,8 @@ iframe.mainbox {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    background-color: aqua;
+    height: 45px;
 }
 .tab button:hover {
     background-color: aliceblue;
@@ -67,6 +69,7 @@ iframe.mainbox {
     padding: 6px 12px;
     border: 1px solid #888833;
     border-top: none;
-    width: 100px;
-    height: 100px;
+    background-color: azure;
+    width: 100%;
+    height: 600px;
 }
