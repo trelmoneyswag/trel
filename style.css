@@ -31,21 +31,8 @@ p {
 }
 iframe.mainbox {
     display: absolute;
-    width: 700px;
-    height: 600px;
+    width: 600px;
+    height: 700px;
     padding: 100px;
     margin-left: 75px;
-}
-.blogs{
-    display: flexbox;
-    width: 400px;
-    height: 400px;
-    border: 1px black solid;
-}
-iframe.blogs{
-    display: absolute;
-    width: 400px;
-    height: 400px;
-    padding: 100px;
-    z-index: 6;
 }
