@@ -21,7 +21,7 @@ body {
 }
 .mainbox {
     display: flexbox;
-    width: 700px;
+    width: 600px;
     height: 600px;
     border: 1px #888833 solid;
 
