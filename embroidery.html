@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> Welcome to my Embroidery Page</h1>
+    <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    Here is where I showcase some of my projects!
+    </h2>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'start')" id="defaultOpen" > Start</button>
+        <button class="tablinks" onclick="openCity(event, 'Dad')"> Dad</button>
+        <button class="tablinks" onclick="openCity(event, 'Dana')"> Dana</button>
+
+    </div>
+    <div id="start" class="tabcontent">
+       <p> hellooo </p>
+    <div id="Dad" class="tabcontent">
+        <img src="images/support4lesbians.jpg" style="height: 200px; width: 200px;">
+    </div>
+    <div id="Dana" class="tabcontent">
+        <img src="images/swatalpha.jpg" style="height: 200px; width: 200px;">
+    </div>
+
+    <script>
+        function openCity(event, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i=0; i< tabcontent.length; i++) {
+        tabcontent[i],style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i=0; i< tablinks.length; i++) {
+        tablinks [i].className = tablinks[i].className.replace("active", "");
+
+    }
+    document.getElementById(cityName).style.display = "block";
+event.currentTarget.className += "active";
+
+}
+document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
