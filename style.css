@@ -3,7 +3,7 @@ body {
 }
 .sidebarright {
     display: flexbox;
-    background-image: url(/images/watercolorbrown.jpeg);
+    background-image:image(images/watercolorbrown.jpg);
     width: 200px;
     height: 650px;
     float: right;
