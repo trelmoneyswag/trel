@@ -21,21 +21,23 @@ body {
     background-size: 100% 100%;
 }
 .mainbox {
-    display: flexbox;
+    display: absolute;
     width: 600px;
-    height: 700px;
+    height: 650px;
     border: 1px #888833 solid;
+
 
 }
 p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 iframe.mainbox {
-    display: absolute;
+    display: flexbox;
     width: 600px;
-    height: 700px;
-    padding: 100px;
+    height: 650px;
+    padding: 110px;
     margin-left: 75px;
+  
 }
 
 .tab {
@@ -55,7 +57,6 @@ iframe.mainbox {
     padding: 14px 16px;
     transition: 0.3s;
     background-color: #C4A484
-    height: 45px;
 }
 .tab button:hover {
     background-color:#C4A484 ;
