@@ -1,6 +1,8 @@
 body {
     background-color: 	#888833;
+    cursor: url('images/pencil.png'), auto;
 }
+
 .sidebarright {
     display: flexbox;
     background-image:url(images/watercolorbrown.jpeg);
