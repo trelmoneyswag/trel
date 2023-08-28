@@ -22,6 +22,13 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+.bigbox{
+    display: flexbox;
+    width:1000px;
+    height: 700px;
+    border: none;
+
+}
 .mainbox {
     display: absolute;
     width: 600px;
