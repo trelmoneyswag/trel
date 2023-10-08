@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trel's House</title>
+    <link rel ="stylesheet" href="style.css">
+    <link• rel="icon" type=" image/x-icon"  href="images/fnticon.jpeg">
+    
+</head>
+<body>
+<h1> Watercolor</h1>
+<h2> This is where I showcase my watercolor. which is SUPER DUPER A Work in Progress!</h2>
+
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'start')" id="defaultOpen"> Start</button>
+    <button class="tablinks" onclick="openCity(event, 'tigerlily')" id="defaultOpen"> Tiger Lily</button>
+    <button class="tablinks" onclick="openCity(event, 'cherry')" id="defaultOpen"> Cherry Blossoms</button>
+</div>
+<div id="start" class="tabcontent">
+   <p>Hello!! I am trying to be artsy fartsy in more than one way! enjoy my silly watercolors </p>
+</div>
+<div id="tigerlily" class="tabcontent">
+   <img src="images/watercolortigerlily Small.jpeg">
+
+ </div>
+ <div id="cherry" class="tabcontent">
+   <img src="images/watercolorcherryblossoms Small.jpeg">
+ </div>
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++){
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+</body>
+</html>
