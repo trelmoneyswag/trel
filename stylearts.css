@@ -1,0 +1,17 @@
+body {
+    background-color: 	#e26666;
+    cursor: url('images/pencil.png'), auto;
+    
+}
+
+.mainbox{
+    display: absolute;
+    width:1000px;
+    height: 700px;
+    border: none;
+    background-image: url('images/easel.png');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  margin-left: 15%;
+    
+}
