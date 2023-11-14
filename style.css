@@ -1,58 +1,96 @@
 body {
-    background-color: 	#888833;
+    background-color: 	#e26666;
     cursor: url('images/pencil.png'), auto;
+    
 }
 
-.sidebarright {
-    display: flexbox;
-    background-image:url(images/watercolorbrown.jpeg);
-    width: 200px;
-    height: 650px;
-    float: right;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
-.sidebarleft {
-    display: flexbox;
-    background-image: url(images/watercolorbrown.jpeg);
-    width: 200px;
-    height: 650px;
-    float: left;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
+
 .bigbox{
-    display: flexbox;
-    width:1400px;
+    display: absolute;
+    width:1000px;
     height: 700px;
     border: none;
-
-}
-.mainbox {
-    display: absolute;
-    width: 600px;
-    height: 650px;
-    border: 1px #888833 solid;
+    background-image: url('images/childrug.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  margin-left: 15%;
+    margin-top: 150px;
 
 
 }
+.airport{
+    display: flexbox;
+    width:50px ;
+    height: 50px;
+    position: absolute;
+    background-size: 100px;
+    margin-left: 725px;
+    margin-top: 60px;
+}
+
+.arts{
+    display: flexbox;
+    position: absolute;
+    width: 50px;
+    height:50px;
+    background-size:100px;
+    margin-left: 40px;
+    margin-top: 450px;
+    
+}
+.media{
+    display: flexbox;
+    position: absolute;
+    width: 50px;
+    height:50px;
+    background-size:100px;
+    margin-left: 240px;
+    margin-top: 250px;
+    
+}
+.thots{
+    display: flexbox;
+    position: absolute;
+    width: 50px;
+    height:50px;
+    background-size:100px;
+    margin-left: 785px;
+    margin-top: 275px;
+    
+}
+.shrines{
+    display: flexbox;
+    position: absolute;
+    width: 50px;
+    height:50px;
+    background-size:100px;
+    margin-left: 225px;
+    margin-top: 390px;
+    
+}
+.police{
+    display: flexbox;
+    position: absolute;
+    width: 300px;
+    height:300px;
+    background-image: url('images/policekar.jpeg');
+    background-repeat: no-repeat;
+    background-size:150px;
+    margin-left: 475px;
+    margin-top: 375px;
+}
+
 p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-iframe.mainbox {
-    display: flexbox;
-    width: 600px;
-    height: 650px;
-    padding: 110px;
-    margin-left: 75px;
-  
-}
+
 
 .tab {
     float: left;
-    border: 1px solid #585823;
-    background-color: #964B00;
+    border: 1px solid #3fd786;
+    background-color: #06b4cf;
     height: 900px;
     width: 30%;
 
@@ -65,23 +103,23 @@ iframe.mainbox {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    background-color: #C4A484;
+    background-color: #af39a4;
     text-align: left;
     width: 100%;
 }
 .tab button:hover {
-    background-color:#C4A484 ;
+    background-color:#3d6ccb ;
 
 }
 .tab button.active {
-    background-color: rgb(71, 95, 61);
+    background-color: rgb(100, 104, 218);
 }
 .tabcontent{
     float: left;
     padding: 0px 12px;
-    border: 1px solid #888833;
+    border: 1px solid #b82c80;
     border-left: none;
-    background-color: rgb(214, 242, 182);
+    background-color: rgb(150, 58, 200);
     width: 65%;
     height: 900px;
 }
