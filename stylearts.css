@@ -3,15 +3,26 @@ body {
     cursor: url('images/pencil.png'), auto;
     
 }
-
+.container{
+  width: 1500px;
+  height: 1000px
+  
+}
 .mainbox{
-    display: absolute;
-    width:1000px;
-    height: 700px;
+    width: 500px;
+    height: 800px;
     border: none;
     background-image: url('images/easel.png');
     background-repeat: no-repeat;
-    background-size: 1000px;
-  margin-left: 15%;
+    background-size: 500px;
+  
     
+}
+.secondbox {
+  width: 500px;
+  height: 800px;
+border-color: black;
+border-style: dashed;
+border-width: 5px;
+margin-left: 600px;
 }

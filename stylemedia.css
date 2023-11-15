@@ -2,9 +2,13 @@ body{
     background-color: 	#e26666;
     cursor: url('images/pencil.png'), auto;
 }
-
+.container{
+    width: 800px;
+    height:600px;
+}
 .mainbox{
     height: 550px;
+    width: 700px;
     background-image: url('images/mediabook.png');
     background-size: 915px;
     background-repeat: no-repeat;
