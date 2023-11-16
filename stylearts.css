@@ -4,8 +4,9 @@ body {
     
 }
 .container{
-  width: 1500px;
-  height: 1000px
+  width: 1800px;
+  height: 1000px;
+  display:flex;
   
 }
 .mainbox{
@@ -15,6 +16,7 @@ body {
     background-image: url('images/easel.png');
     background-repeat: no-repeat;
     background-size: 500px;
+    display: absolute;
   
     
 }
@@ -24,5 +26,6 @@ body {
 border-color: black;
 border-style: dashed;
 border-width: 5px;
-margin-left: 600px;
+margin-left: 100px;
+display: absolute;
 }
