@@ -1,16 +1,27 @@
 body {
     background-color: 	#FF0000;
 }
+
+.container{
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+}
 .gleeslushiebox {
     display: absolute;
-    width: 100px;
-    height: 650px;
+    width: 300px;
+    height: 400px;
+    background-image: url('images/gleeslushie.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    
 }
 .gleebox {
-    display: flexbox;
-    width: 400px;
+    display: absolute;
+    width: 600px;
     height: 650px; 
     background-color: yellow;
     float: right;
+    margin-left: 100px;
    
 }
