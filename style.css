@@ -1,99 +1,45 @@
 body {
-    background-color: 	#e26666;
-    cursor: url('images/pencil.png'), auto;
+    background-color: #ea9db7
     
 }
-
-
-.container{
-    display: absolute;
-    width: 1200px;
-    height: 1000px;
-}
-
-.bigbox{
-    display: absolute;
-    width:1000px;
+.leftbox{
+    display: inline;
+    width: 300px;
     height: 700px;
-    border: none;
-    background-image: url('images/childrug.jpeg');
-    background-repeat: no-repeat;
-    background-size: 1000px;
-  margin-left: 15%;
-    
-
-
+    border-style: solid;
 }
-.airport{
-    display: flexbox;
-    width:50px ;
-    height: 50px;
-    position: absolute;
-    background-size: 100px;
-    margin-left: 725px;
-    margin-top: 60px;
+.bigbox{
+    display: inline;
+    width: 600px;
+    height: 700px;
+    margin-left: 200px;
+    border-style: solid;
 }
 
-.arts{
-    display: flexbox;
-    position: absolute;
-    width: 50px;
-    height:50px;
-    background-size:100px;
-    margin-left: 40px;
-    margin-top: 450px;
-    
+.rightbox{
+    display: inline;
+    width: 300px;
+    height: 700px;
+    border-style: solid;
 }
-.media{
-    display: flexbox;
-    position: absolute;
-    width: 50px;
-    height:50px;
-    background-size:100px;
-    margin-left: 240px;
-    margin-top: 250px;
-    
+
+.adventures{
+    display: flex;
+    width: 250px;
+    height: 250px;
 }
-.thots{
-    display: flexbox;
-    position: absolute;
-    width: 50px;
-    height:50px;
-    background-size:100px;
-    margin-left: 785px;
-    margin-top: 275px;
-    
-}
-.shrines{
-    display: flexbox;
-    position: absolute;
-    width: 50px;
-    height:50px;
-    background-size:100px;
-    margin-left: 225px;
-    margin-top: 390px;
-    
-}
+
+
 .guestbook{
-    display: flexbox;
+    display: block;
     position: absolute;
     width: 50px;
     height:50px;
     background-size:100px;
     margin-right:10%;
+   
  
     
-}
-.police{
-    display: flexbox;
-    position: absolute;
-    width: 300px;
-    height:300px;
-    background-image: url('images/policekar.jpeg');
-    background-repeat: no-repeat;
-    background-size:150px;
-    margin-left: 475px;
-    margin-top: 375px;
 }
 
 p {
@@ -136,4 +82,80 @@ p {
     background-color: rgb(150, 58, 200);
     width: 65%;
     height: 900px;
+}
+
+
+.container{
+    display: flexbox;
+    flex-direction: column;
+    position: absolute;
+    width:1400px;
+    height: 700px;
+    border: none;
+    margin-left: 50px;
+}
+
+.mainbox{
+    width: 1000px;
+    height: 1100px;
+    margin-left: 150px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.menu{
+    position: absolute;
+    width:200px;
+    height: 400px;
+    border: 10px;
+    margin-left:50px;
+    border-style:dotted;
+    border-color: black;
+}
+
+.castbox{
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    border-style: dashed;
+    border-width: 5px;
+    margin-left: 300px;
+}
+
+
+iframe.castbox {
+    display: inline-block;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    
+    margin-left: 300px;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    margin-top: 700px;
+  }
+
+.left, .right {
+    width: 30%;
+}
+
+.middle {
+    width: 30%;
+  }
+
+.row {
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
