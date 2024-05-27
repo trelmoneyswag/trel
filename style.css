@@ -1,5 +1,5 @@
 body {
-    background-color: #ea9db7
+    background-color: #f3d9e8;
     
 }
 .leftbox{
@@ -14,6 +14,7 @@ body {
     height: 700px;
     margin-left: 200px;
     border-style: solid;
+    background-color: pink;
 }
 
 .rightbox{
@@ -96,11 +97,12 @@ p {
 }
 
 .mainbox{
-    width: 1000px;
+    width: 1300px;
     height: 1100px;
-    margin-left: 150px;
+    margin-left: 10px;
     border-style: solid;
     border-width: 5px;
+    background-color: #7e9ede;
 }
 
 .menu{
@@ -108,6 +110,7 @@ p {
     width:200px;
     height: 400px;
     border: 10px;
+    margin-top: 10px;
     margin-left:50px;
     border-style:dotted;
     border-color: black;
@@ -117,20 +120,22 @@ p {
     display: inline-block;
     flex-direction: column;
     position: absolute;
-    width: 600px;
+    width: 900px;
     height: 500px;
     border-style: dashed;
     border-width: 5px;
     margin-left: 300px;
+    background-color: #a3e8c3;
 }
 
 
 iframe.castbox {
+    margin-top: 10px;
     display: inline-block;
     flex-direction: column;
-    width: 600px;
+    width: 900px;
     height: 600px;
-    
+    background-color: #a3e8c3;
     margin-left: 300px;
 }
 .column {
@@ -159,3 +164,29 @@ iframe.castbox {
     display: table;
     clear: both;
 }
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 400px;
+    height: 600px;
+  }
+  
+#mydivheader {
+    width: 400px;
+   
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+
+.x-button{
+    float: right;
+    background-color: var(--light);
+}
+
