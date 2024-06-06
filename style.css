@@ -1,12 +1,15 @@
 body {
-    background-color: #f3d9e8;
+   
     
 }
 .leftbox{
     display: inline;
-    width: 300px;
+    width: 200px;
     height: 700px;
     border-style: solid;
+    flex-direction: column;
+    position: absolute;
+    background-image: url(images/rainbows.jpeg);
 }
 .bigbox{
     display: inline;
@@ -14,12 +17,12 @@ body {
     height: 700px;
     margin-left: 200px;
     border-style: solid;
-    background-color: pink;
+   
 }
 
 .rightbox{
     display: inline;
-    width: 300px;
+    width: 200px;
     height: 700px;
     border-style: solid;
 }
@@ -90,17 +93,20 @@ p {
     display: flexbox;
     flex-direction: column;
     position: absolute;
-    width:1400px;
-    height: 700px;
+    width:1500px;
+    height: 2000px;
     border: none;
-    margin-left: 50px;
+    
+    background-color: pink;
 }
 
 .mainbox{
-    width: 1300px;
+    width: 1000px;
     height: 1100px;
-    margin-left: 10px;
+    margin-left: 300px;
     border-style: solid;
+    flex-direction: column;
+    position: absolute;
     border-width: 5px;
     background-color: #7e9ede;
 }
@@ -120,12 +126,14 @@ p {
     display: inline-block;
     flex-direction: column;
     position: absolute;
-    width: 900px;
+    width: 800px;
     height: 500px;
     border-style: dashed;
     border-width: 5px;
     margin-left: 300px;
     background-color: #a3e8c3;
+    background-image: url(images/welcome.jpeg);
+    
 }
 
 
@@ -133,10 +141,11 @@ iframe.castbox {
     margin-top: 10px;
     display: inline-block;
     flex-direction: column;
-    width: 900px;
+    width: 600px;
     height: 600px;
     background-color: #a3e8c3;
     margin-left: 300px;
+    
 }
 .column {
     float: left;
@@ -171,12 +180,12 @@ iframe.castbox {
     background-color: #f1f1f1;
     text-align: center;
     border: 1px solid #d3d3d3;
-    width: 400px;
-    height: 600px;
+    width: 100px;
+    height: 200px;
   }
   
 #mydivheader {
-    width: 400px;
+    width: 100px;
    
     cursor: move;
     z-index: 10;
@@ -190,3 +199,20 @@ iframe.castbox {
     background-color: var(--light);
 }
 
+.embroiderybox{
+    margin-top: 10px;
+    display: inline-block;
+    flex-direction: column;
+    width: 600px;
+    height: 1500px;
+    background-color: #a3e8c3;
+}
+
+.watercolorbox{
+    margin-top: 10px;
+    display: inline-block;
+    flex-direction: column;
+    width: 600px;
+    height: 1000px;
+    background-color: #a3e8c3;
+}

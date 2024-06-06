@@ -7,14 +7,10 @@ body{
     height:600px;
 }
 .mainbox{
-    height: 550px;
-    width: 700px;
-    background-image: url('images/mediabook.png');
+    height: 500px;
+    width: 550px;
     background-size: 915px;
     background-repeat: no-repeat;
-    padding: 70px;
-    padding-right: 150px;
-    margin-left: 10%;
     overflow: scroll;
 
 }
