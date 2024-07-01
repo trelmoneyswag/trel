@@ -2,15 +2,8 @@ body {
    
     
 }
-.leftbox{
-    display: inline;
-    width: 200px;
-    height: 700px;
-    border-style: solid;
-    flex-direction: column;
-    position: absolute;
-    background-image: url(images/rainbows.jpeg);
-}
+
+
 .bigbox{
     display: inline;
     width: 600px;
