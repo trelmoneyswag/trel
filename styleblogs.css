@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/picnicblanketbackground.jpeg);
+    background-color: rgb(172, 230, 230);
     cursor: url('images/pencil.png'), auto
 }
  .blogbox{
