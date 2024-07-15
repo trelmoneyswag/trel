@@ -2,7 +2,7 @@
     margin-top: 10px;
     display: inline-block;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
     height: 1000px;
     background-color: #a3e8c3;
 }
