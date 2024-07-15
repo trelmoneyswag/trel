@@ -1,5 +1,5 @@
 body {
-   
+   background-image: url(images/grassbackground.jpeg);
     
 }
 
@@ -24,19 +24,6 @@ body {
     display: flex;
     width: 250px;
     height: 250px;
-}
-
-
-.guestbook{
-    display: block;
-    position: absolute;
-    width: 50px;
-    height:50px;
-    background-size:100px;
-    margin-right:10%;
-   
- 
-    
 }
 
 p {
@@ -90,81 +77,38 @@ p {
     height: 2000px;
     border: none;
     
-    background-color: pink;
+
 }
 
 .mainbox{
     width: 1000px;
     height: 1100px;
-    margin-left: 300px;
-    border-style: solid;
+    margin-left: 350px;
+
     flex-direction: column;
     position: absolute;
-    border-width: 5px;
-    background-color: #7e9ede;
+
+    
+}
+
+.iframe.mainbox{
+    width: 1000px;
+    height: 1100px;
+    margin-left: 350px;
+
+    flex-direction: column;
+    position: absolute;
 }
 
 .menu{
     position: absolute;
-    width:200px;
-    height: 400px;
+    width:300px;
+    height: 1200px;
     border: 10px;
     margin-top: 10px;
-    margin-left:50px;
-    border-style:dotted;
-    border-color: black;
-}
-
-.castbox{
-    display: inline-block;
-    flex-direction: column;
-    position: absolute;
-    width: 800px;
-    height: 500px;
-    border-style: dashed;
-    border-width: 5px;
-    margin-left: 300px;
-    background-color: #a3e8c3;
-    background-image: url(images/welcome.jpeg);
+    background-image:url(images/bookshelves\ menu.png);
+    background-size: cover;
     
-}
-
-
-iframe.castbox {
-    margin-top: 10px;
-    display: inline-block;
-    flex-direction: column;
-    width: 600px;
-    height: 600px;
-    background-color: #a3e8c3;
-    margin-left: 300px;
-    
-}
-.column {
-    float: left;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-    margin-top: 700px;
-  }
-
-.left, .right {
-    width: 30%;
-}
-
-.middle {
-    width: 30%;
-  }
-
-.row {
-    margin-left: 50px;
-    margin-right: auto;
-    display: block;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #mydiv {
@@ -192,14 +136,7 @@ iframe.castbox {
     background-color: var(--light);
 }
 
-.embroiderybox{
-    margin-top: 10px;
-    display: inline-block;
-    flex-direction: column;
-    width: 600px;
-    height: 1500px;
-    background-color: #a3e8c3;
-}
+
 
 .watercolorbox{
     margin-top: 10px;
