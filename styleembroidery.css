@@ -1,20 +1,16 @@
-.embroiderybox{
-    margin-top: 10px;
-    display: inline-block;
-    flex-direction: column;
-    width: 600px;
-    height: 1500px;
-    background-color: #a3e8c3;
+.container{
+    background-color: rgb(157, 76, 90);
 }
+
 
 .collapsible{
     background: #fff;
     color: #7e75f6;
     font-weight: 700;
     text-decoration: underline;
-    font-family: 'MS Gothic';
+    font-family:'';
     padding: 18px;
-    width: 500px;
+    width: 200px;
     border: none;
     text-align: center;
     font-size: 15px;
@@ -23,55 +19,31 @@
 .active, .collapsible:hover {
     background-color: #ccc;
   }
-.content{
-    padding-left: 18px;
-    padding-right: 18px;
-    overflow: hidden;
-    width: 464px;
-    font-family: 'MS Gothic';
-    text-align: justify;
-    background-color: #fff;
-    box-shadow: inset 0 0 10px #8bcd37;
-    transition: max-height .2s ease-out;
-}
-button {
-    appearance: auto;
-    display: inline-block;
 
-}
-.tab {
+
+.column {
     float: left;
-    border: 1px solid #3fd786;
-    background-color: #06b4cf;
-    height: 900px;
-    width: 30%;
+    height: 700px;
+    margin-top: 100px;
+    width: 300px;
+}
 
+.left, .right {
+    width: 50%;
 }
-.tab button {
-    display: block;
-    background-color:inherit;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    background-color: #af39a4;
-    text-align: left;
-    width: 100%;
-}
-.tab button:hover {
-    background-color:#3d6ccb ;
 
+.middle {
+    width: 0%;
+  }
+
+.row {
+margin-left: 0px;
+margin-right: auto;
+display: block;
 }
-.tab button.active {
-    background-color: rgb(100, 104, 218);
-}
-.tabcontent{
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #b82c80;
-    border-left: none;
-    background-color: rgb(150, 58, 200);
-    width: 65%;
-    height: 900px;
+
+.row:after {
+content: "";
+display: table;
+clear: both;
 }
