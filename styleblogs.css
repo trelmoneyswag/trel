@@ -2,3 +2,59 @@ body {
     background-image: url(images/picnicblanketbackground.jpeg);
     cursor: url('images/pencil.png'), auto
 }
+ .blogbox{
+
+     
+        width: 600px;
+        height: 700px;
+        margin-left: 100px;
+        border-style: solid;
+       
+ }
+
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid plum;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ce4848;
+  }
+
+
+.collapsible{
+    background: #fff;
+    color: #7e75f6;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family:'';
+    padding: 10px;
+    width: 50px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: inset 0 0 10px #8e7fec;
+}
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .parent { height: 300px; width: 500px; overflow:hidden;}
+       
+  .element {float: left; height: 400px; width: 500px; background-color: grey;}
+
+  .slides { width: calc(400px * 4); animation: slideShow 10s ease infinite;}
+  img {width: 100%; height: 100%}
+  @keyframes slideShow {
+     20% {margin-left: 0px;}
+     40% {margin-left: calc(-400px * 1);}
+     60% {margin-left: calc(-400px * 2);}
+     80% {margin-left: calc(-400px * 3);}
+  }
