@@ -22,6 +22,8 @@ body {
     width: 30%;
     border: saddlebrown;
     border-width: 5px;
+    height:300px;
+    overflow: scroll;
   }
 
 .row {
