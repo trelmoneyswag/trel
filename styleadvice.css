@@ -1,0 +1,54 @@
+body {
+    background-color: #20B2AA;
+    cursor: url('images/pencil.png'), auto;
+    
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */
+    margin-top: 20px;
+    border: 5px;
+  }
+
+.left, .right {
+    width: 15%;
+}
+
+.middle {
+    width: 65%;
+    border: saddlebrown;
+    border-width: 5px;
+    height:800px;
+    overflow: scroll;
+  }
+
+.row {
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.collapsible{
+    background: #fff;
+    color: #7e75f6;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family:'';
+    padding: 18px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: inset 0 0 10px #c682ee;
+}
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
