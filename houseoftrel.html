@@ -29,4 +29,24 @@
     <div class="column right" style="background-color:pink;">
         <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfezbUQLMH84AX1ZHtf8CkfSgLqlDuXObKKzrtZfwFnyyyoNQ/viewform?usp=sf_link"> link to the form!!</a>
         </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+    
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            }
+                
+       
+    
+            </script>
 </body>
