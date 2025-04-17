@@ -6,9 +6,9 @@ body {
 
 .bigbox{
     display: inline;
-    width: 600px;
+    width: 90%;
     height: 700px;
-    margin-left: 200px;
+    margin-left: 30%;
     border-style: solid;
    
 }
@@ -37,7 +37,7 @@ p {
     display: flexbox;
     flex-direction: column;
     position: absolute;
-    width:1500px;
+    width:90%;
     height: 1300px;
     border: none;
     
@@ -45,9 +45,9 @@ p {
 }
 
 .mainbox{
-    width: 1000px;
+    width: 90%;
     height: 1100px;
-    margin-left: 350px;
+    margin-left: 25%;
 
     flex-direction: column;
     position: absolute;
@@ -56,9 +56,9 @@ p {
 }
 
 .iframe.mainbox{
-    width: 1000px;
+    width: 90%;
     height: 1100px;
-    margin-left: 350px;
+    margin-left: 25%;
 
     flex-direction: column;
     position: absolute;
@@ -66,7 +66,7 @@ p {
 
 .menu{
     position: absolute;
-    width:300px;
+    width:22%;
     height: 1200px;
     border: 10px;
     margin-top: 10px;
