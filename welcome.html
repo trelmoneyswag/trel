@@ -7,7 +7,18 @@
     <link rel ="stylesheet" href="stylewelcome.css">
 </head>
 <body>
+<script>
+        var password = "12345";
+        (function passcodeprotect() {
+           var passcode = prompt("Enter PassCode (temp while i hide from students)");
+           while (passcode !== password) {
+              alert("Incorrect PassCode");
+              return passcodeprotect();
+           }
+        }());
+        alert('Welcome To The House');
 
+     </script>
     <H1 style="text-align: center;">
         TREL'S HOUSE
       <img src="images/flying money.gif" style = "width: 50px; height: 50px;">
